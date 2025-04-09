@@ -34,8 +34,8 @@ while True:
 
 user_input_float("Input exchange rate: ")
 exchange_rate=user_input
-user_input_float("Input spread: ")
-spread=user_input
+user_input_float("Input spread (in %): ")
+spread=user_input/100
 
 while True:
     user_input_float("Input denomination: ")
